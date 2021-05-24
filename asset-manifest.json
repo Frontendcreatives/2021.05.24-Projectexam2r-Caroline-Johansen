@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/2021.05.24-Projectexam2r-Caroline-Johansen/static/css/main.aea42751.chunk.css",
+    "main.js": "/2021.05.24-Projectexam2r-Caroline-Johansen/static/js/main.5d4bf651.chunk.js",
+    "main.js.map": "/2021.05.24-Projectexam2r-Caroline-Johansen/static/js/main.5d4bf651.chunk.js.map",
+    "runtime-main.js": "/2021.05.24-Projectexam2r-Caroline-Johansen/static/js/runtime-main.fa5ae550.js",
+    "runtime-main.js.map": "/2021.05.24-Projectexam2r-Caroline-Johansen/static/js/runtime-main.fa5ae550.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/2021.05.24-Projectexam2r-Caroline-Johansen/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.86b9687a.chunk.js": "/2021.05.24-Projectexam2r-Caroline-Johansen/static/js/2.86b9687a.chunk.js",
+    "static/js/2.86b9687a.chunk.js.map": "/2021.05.24-Projectexam2r-Caroline-Johansen/static/js/2.86b9687a.chunk.js.map",
+    "static/js/3.f0251799.chunk.js": "/2021.05.24-Projectexam2r-Caroline-Johansen/static/js/3.f0251799.chunk.js",
+    "static/js/3.f0251799.chunk.js.map": "/2021.05.24-Projectexam2r-Caroline-Johansen/static/js/3.f0251799.chunk.js.map",
+    "index.html": "/2021.05.24-Projectexam2r-Caroline-Johansen/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/2021.05.24-Projectexam2r-Caroline-Johansen/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.aea42751.chunk.css.map": "/2021.05.24-Projectexam2r-Caroline-Johansen/static/css/main.aea42751.chunk.css.map",
+    "static/js/2.86b9687a.chunk.js.LICENSE.txt": "/2021.05.24-Projectexam2r-Caroline-Johansen/static/js/2.86b9687a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fa5ae550.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.86b9687a.chunk.js",
+    "static/css/main.aea42751.chunk.css",
+    "static/js/main.5d4bf651.chunk.js"
+  ]
+}

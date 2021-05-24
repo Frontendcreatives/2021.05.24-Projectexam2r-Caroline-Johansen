@@ -1,38 +1,219 @@
+
 .App {
   text-align: center;
+  background: #FFF;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.intro{
+    
+  margin-bottom: 15vh!important;  
+    
+}
+.navbar{
+    
+    margin-bottom: 10vh;
+}
+img {
+  
+max-width: 300px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*--Fonts--*/
+
+h1,h2{
+ font-family: 'Open Sans';
+ padding: 3vh!important;       
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+p{
+  font-family: 'Open Sans';     
 }
 
-.App-link {
-  color: #61dafb;
+
+/*--Add Post Form--*/
+
+.user{
+
+margin: 3vh;    
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*--Card--*/
+
+.cardbody{
+
+padding: 8vh!important;
+text-align:left !important;
 }
+
+
+.card{
+    
+  margin: 5vh;  
+  margin-bottom: 10vh;   
+    
+}
+
+
+/*--Buttons, Links and Icons--*/
+ .logout{
+margin: 2vh;
+
+float:right!important;   
+}
+.create, .edit{
+
+  margin: 2vh;
+   margin-bottom:6vh!important; 
+    
+}
+
+.titlelink{
+    
+  color:#003366; 
+  text-decoration: none; 
+    
+}
+
+.back{
+    
+  margin-bottom: 20vh;  
+   
+}
+
+
+/*--Sticky footer--*/
+
+.footer{
+ margin-top: 1rem;
+ padding: 1rem;
+ background-color: #003366;
+ color: White;
+ position: fixed;
+ bottom: 0;
+ left: 0;
+ width: 100%   
+    
+   
+}
+
+
+/*--Search Field--*/
+
+
+.usersearch{
+float:left;
+margin:8vh;
+margin-left: 10vh;    
+
+}
+
+input,textarea {
+border: 1px solid transparent;
+border-radius: 3px;
+}
+	
+
+.search-outer {
+margin: 50px 0 35px;
+text-align: center;
+}
+.searchform {
+display: inline-block;
+position: relative;
+left: 0;
+right: 0;
+}
+input {
+outline: medium none;
+}
+
+input[type="search"] {
+background-color: transparent;
+border: medium none;
+border-width: 0 0 1px 0;
+border-style: solid;
+border-color: $grey;
+box-sizing: content-box;
+cursor: pointer;
+font-family: inherit;
+font-size: 100%;
+margin-bottom: 0;
+padding: 3px 0;
+transition: all 0.5s ease 0s;
+max-width: 550px;
+width: calc(100% - 15px);
+-webkit-appearance: none;
+-moz-appearance: none;
+&::-webkit-search-decoration {
+-webkit-appearance: none;
+				}
+
+
+&::-ms-clear {
+display: none;
+width: 0;
+height: 0;
+}
+
+&::-ms-reveal {
+display: none;
+width: 0;
+height: 0;
+				
+}
+
+
+&::-webkit-search-decoration,
+&::-webkit-search-cancel-button,
+&::-webkit-search-results-button,
+&::-webkit-search-results-decoration {
+display: none;
+}
+
+    
+&:focus {
+    background-color: transparent;
+    color: #fff;
+    cursor: auto;
+    padding: 3px 0;
+				}
+			}
+
+&:hover input[type="search"] {
+background-color: transparent;
+color: $white;
+cursor: auto;
+padding: 3px 0;
+}
+		
+
+button[type="submit"] {
+background-color: white;
+border: medium none;
+color: white;
+			cursor: pointer;
+			height: 30px;
+			line-height: 1;
+			float: right;
+			font-size: 1em;
+			pointer-events: none;
+			width: auto;
+			z-index: 1000000000;
+		}
+
+		.fa-search {
+			padding-left: 0;
+			padding-right: 0;
+		}
+
+	
+
+
+
+	
+
+
+
+
+
